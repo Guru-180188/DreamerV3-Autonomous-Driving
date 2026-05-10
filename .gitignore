@@ -1,0 +1,27 @@
+# Python Environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# MacOS 
+.DS_Store
+
+# Training Logs & Extras
+videos/
+checkpoint_*.pt
+make_gif.py
+
+# Keep final model only
+!dreamer_v3_CarRacing-v3.pt
+
+# Old/Unnecessary Project Files
+dreamer_v3_pathfinding.pt
+training_visualization.mp4
+train_enhanced.py
+QUICKSTART.md
+dataset_loader.py
+demo_visualization.py
+test_setup.py

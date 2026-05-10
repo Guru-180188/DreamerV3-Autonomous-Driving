@@ -1,0 +1,7 @@
+torch>=2.0
+numpy>=1.24
+gymnasium>=0.29
+gymnasium[box2d]>=0.29
+opencv-python>=4.8.0
+moviepy>=1.0.3
+swig>=4.0
